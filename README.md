@@ -1,5 +1,4 @@
-# Online Auction System
-# CRUD Operation
+# Online Auction System (CRUD Operation)
 
 This is a *CRUD (Create, Read, Update, Delete)* application for an Online Auction system. The project is built using *Java, **Servlet, **JDBC, and **MySQL, and developed in the **Eclipse IDE. The MySQL database is integrated using the **MySQL Connector JAR*.
 
