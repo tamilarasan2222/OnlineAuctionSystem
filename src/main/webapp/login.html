@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            background-color: #28a745; 
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #218838; 
+        }
+
+        .register-link {
+            color: #007bff; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .register-link:hover {
+            text-decoration: underline; 
+        }
+
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h2>Online Auction System</h2>
+    <form action="LoginServlet" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit" class="btn">Login</button>
+    </form>
+
+    <p>Don't have an account? <a href="register.html" class="register-link">Register here</a></p>
+</center>    
+</body>
+</html>

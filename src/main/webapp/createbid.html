@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Bid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Create Bid</h1>
+    <form action="CreateItemServlet" method="POST">
+        <label for="name">Bid Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="price">Bid Price:</label>
+        <input type="text" id="price" name="price" required>
+
+        <label for="description">Bid Description:</label>
+        <input type="text" id="description" name="description" required>
+
+        <input type="submit" value="Create">
+    </form>
+    <div class="container">
+        <a href="viewbid.jsp">View Bid</a>
+    </div>
+</body>
+</html>

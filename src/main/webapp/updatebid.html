@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Bid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Update Bid</h1>
+    <form action="UpdateItemServlet" method="POST">
+        <label for="id">Item ID:</label>
+        <input type="text" id="id" name="id" required>
+
+        <label for="name">New Item Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="price">New Item Price:</label>
+        <input type="text" id="price" name="price" required>
+
+        <label for="description">New Item Description:</label>
+        <input type="text" id="description" name="description" required>
+
+        <input type="submit" value="Update">
+    </form>
+    <div class="container">
+        <a href="viewbid.jsp">View Items</a>
+    </div>
+</body>
+</html>
